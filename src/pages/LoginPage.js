@@ -34,15 +34,49 @@ export default function LoginPage() {
   };
 
   return (
-    <div className='max-w-md mx-auto mt-32'>
-      <ToastContainer position='top-right' autoClose={2500} />
-      <form className='bg-white p-6 rounded shadow' onSubmit={handleSubmit}>
-        <h2 className='text-2xl mb-4'>Sign in</h2>
-        <label className='block mb-2 text-sm'>Email</label>
-        <input className='w-full mb-3 p-2 border rounded' type='email' value={email} onChange={e => setEmail(e.target.value)} />
-        <label className='block mb-2 text-sm'>Password</label>
-        <input className='w-full mb-4 p-2 border rounded' type='password' value={password} onChange={e => setPassword(e.target.value)} />
-        <button className='w-full bg-blue-600 text-white py-2 rounded' disabled={submitting}>{submitting ? 'Signing in...' : 'Sign in'}</button>
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-indigo-600 to-blue-500 px-4">
+      <ToastContainer position="top-right" autoClose={2500} />
+
+      <form
+        className="bg-white/95 backdrop-blur-sm p-8 rounded-xl shadow-lg w-full max-w-md"
+        onSubmit={handleSubmit}
+      >
+        <h2 className="text-3xl font-bold text-center text-gray-800 mb-6">
+          Student Management Login
+        </h2>
+
+        <label className="block mb-2 text-sm font-medium text-gray-700">
+          Email
+        </label>
+        <input
+          className="w-full mb-4 p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400 transition"
+          type="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          placeholder="Enter your email"
+        />
+
+        <label className="block mb-2 text-sm font-medium text-gray-700">
+          Password
+        </label>
+        <input
+          className="w-full mb-6 p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400 transition"
+          type="password"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+          placeholder="Enter your password"
+        />
+
+        <button
+          className={`w-full py-3 rounded-lg text-white font-semibold shadow-md transition ${
+            submitting
+              ? 'bg-indigo-400 cursor-not-allowed'
+              : 'bg-indigo-600 hover:bg-indigo-700'
+          }`}
+          disabled={submitting}
+        >
+          {submitting ? 'Signing in...' : 'Sign in'}
+        </button>
       </form>
     </div>
   );

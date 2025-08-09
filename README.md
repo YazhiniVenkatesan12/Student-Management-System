@@ -103,7 +103,15 @@ npm start
 
 ## 📷 Screenshots
 
-*(Add your screenshots here)*
+## Login Page
+![Login Page Screenshot](images/login.png)
+
+## Dashboard
+![Dashboard Screenshot](images/std detail.png)
+![Dashboard Screenshot](images/add std.png)
+![Dashboard Screenshot](images/edit std.png)
+
+
 
 ## 📝 License
 
