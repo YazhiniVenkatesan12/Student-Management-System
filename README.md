@@ -107,9 +107,10 @@ npm start
 ![Login Page Screenshot](images/login.png)
 
 ## Dashboard
-![Dashboard Screenshot](images/std detail.png)
-![Dashboard Screenshot](images/add std.png)
-![Dashboard Screenshot](images/edit std.png)
+![DashboardScreenshot](images/stddetail.png)
+##
+![DashboardScreenshot](images/addstd.png)
+![DashboardScreenshot](images/editstd.png)
 
 
 

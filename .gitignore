@@ -67,3 +67,9 @@ node_modules/
 
 # dataconnect generated files
 .dataconnect
+# Ignore env files
+.env.local
+
+# Ignore Firebase config file
+src/firebaseConfig.js
+
