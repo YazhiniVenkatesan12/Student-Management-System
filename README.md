@@ -14,10 +14,10 @@ A simple and secure student management application built with **React** and **No
 ##  Live Demo & Login Credentials
 
 You can try out the app live:  
-**Live URL**: `https://student-management-c716a.web.app/students`
+[Live Demo](https://student-management-c716a.web.app/students)
 
 **Use the following credentials to log in:**
-
+ 
 | Field    | Value               |
 |----------|---------------------|
 | Email    | `admin@123.com` |
