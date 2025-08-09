@@ -10,6 +10,20 @@ A simple and secure student management application built with **React** and **No
 * **Protected Pages** – Only logged-in users can access certain routes
 * **Reusable Components** – Organized code structure for easy maintenance
 
+
+##  Live Demo & Login Credentials
+
+You can try out the app live:  
+**Live URL**: `https://student-management-c716a.web.app/students`
+
+**Use the following credentials to log in:**
+
+| Field    | Value               |
+|----------|---------------------|
+| Email    | `admin@123.com` |
+| Password | `admin123` |
+
+
 ## 🛠 Tech Stack
 
 **Frontend**
@@ -21,14 +35,14 @@ A simple and secure student management application built with **React** and **No
 **Backend**
 
 * Node.js / Express
-* PostgreSQL (via Supabase or native PG)
+* PostgreSQL 
 
 ## 📂 Project Structure
 
 ```
 project-root/
 │
-├── frontend/         # React application
+├── frontend/         
 │   ├── src/
 │   │   ├── components/
 │   │   ├── pages/
@@ -36,7 +50,7 @@ project-root/
 │   │   ├── App.js
 │   │   └── index.js
 │
-├── backend/          # Node.js server
+├── backend/          
 │   ├── routes/
 │   ├── controllers/
 │   ├── models/
@@ -45,60 +59,10 @@ project-root/
 └── README.md
 ```
 
-## ⚡ Getting Started
-
-### 1. Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/YazhiniVenkatesan12/Student-Management-System.git
-```
-
-### 2. Install dependencies
-
-**Frontend**
-
-```bash
-cd frontend
-npm install
-```
-
-**Backend**
-
-```bash
-cd backend
-npm install
-```
-
-### 3. Environment Variables
-
-Create a `.env` file in both `frontend` and `backend` with required keys:
-
-**Backend** (`.env`)
-
-```
-PORT=5000
-DATABASE_URL=your_database_url
-JWT_SECRET=your_jwt_secret
-```
-
-**Frontend** (`.env`)
-
-```
-REACT_APP_API_URL=http://localhost:5000
-```
-
-### 4. Run the project
-
-**Backend**
-
-```bash
-npm run dev
-```
-
-**Frontend**
-
-```bash
-npm start
 ```
 
 ## 📷 Screenshots
